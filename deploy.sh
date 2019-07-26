@@ -12,6 +12,10 @@ sudo rm -rf "$PUBLIC_DIR"/*
 cat | sudo tar xC "$PUBLIC_DIR"
 '
 
+if [[ $GIT_DEPLOY ]]; then
+	git push
+fi
+
 echo "Done! Your site has been deployed."
 
 if [[ $WAIT ]]; then
