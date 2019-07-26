@@ -1,0 +1,6 @@
+[submodule "themes/solar"]
+	path = themes/solar
+	url = https://github.com/w8eo/solar-theme-hugo.git
+[submodule ".odt2md"]
+	path = .odt2md
+	url = https://gist.github.com/00a2f311a2a9d9784e12b4523641d180.git

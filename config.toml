@@ -1,0 +1,16 @@
+title = "Ed Oxer"
+baseURL = "/"
+languageCode = "en-us"
+
+theme = "solar"
+
+[params]
+	scheme = "ed"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+  [[menu.main]]
+    name = "RSS Feed"
+    url = "/index.xml"
